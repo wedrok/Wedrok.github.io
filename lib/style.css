@@ -1,0 +1,87 @@
+#c1{
+  height: 313px;
+  width: 626px;
+  border: 3px dashed rgb(255, 217, 0);
+  background-image: url(https://img.freepik.com/free-vector/abstract-banner-background-with-red-shapes_1361-3348.jpg?size=626&ext=jpg);
+}
+
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 20px;
+  text-transform:full-width;
+  background: #2E2F45;
+  display:  flow-root;
+  margin: 20px auto;
+  color: rgb(229, 255, 0);
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 10px 10px;
+}
+
+
+
+body{
+  background: #c4c7cb;
+  background-image: -webkit-radial-gradient(cover, #FFF,#D1D1D1	);
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width:75%; ;
+	float: right;
+	text-align: justify;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(25, 0, 255);
+	border: 1px solid rgb(21, 252, 0);
+	box-shadow: 0 1px 0 rgb(24, 255, 3) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration:underline; ; 
+	color:#333;
+	text-shadow: 0 1px rgb(255, 0, 140);
+	display: run-in;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display:run-in ;
+}
+
+.navbar li ul li {
+	background-color:rgba(243, 158, 0, 0.425);
+  	border: 1px solid rgb(17, 175, 149);
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #1900ff;
+} 
+body{
+	font-size:12px;
+	font-family: sans-serif;
+background:green ;
